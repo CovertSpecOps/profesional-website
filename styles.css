@@ -320,9 +320,8 @@ body {
 }
 
 .stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
 }
 
