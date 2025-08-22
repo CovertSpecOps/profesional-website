@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Salazar - Offensive Security Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Aaron Salazar</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Aaron Salazar</span>
+                </h1>
+                <h2 class="hero-subtitle">Offensive Security Engineer & Ethical Hacker</h2>
+                <p class="hero-description">
+                    6+ years of cybersecurity expertise, specializing in penetration testing, 
+                    vulnerability assessment, and exploring the intersection of AI and security.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-red"></span>
+                            <span class="btn-yellow"></span>
+                            <span class="btn-green"></span>
+                        </div>
+                        <span class="terminal-title">aaron@security:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">aaron@security:~$</span>
+                            <span class="command">nmap -sS target.com</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">Starting Nmap scan...</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">22/tcp   open  ssh</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">80/tcp   open  http</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="output">443/tcp  open  https</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">aaron@security:~$</span>
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate offensive security engineer with over 6 years of experience 
+                        in cybersecurity. My expertise spans penetration testing, vulnerability assessment, 
+                        red team operations, and security research.
+                    </p>
+                    <p>
+                        Currently, I'm exploring the fascinating intersection of AI and cybersecurity, 
+                        investigating how large language models can be leveraged for both offensive 
+                        and defensive security purposes.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>6+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Security Assessments</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Vulnerabilities Found</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Expertise</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Penetration Testing</h3>
+                    <p>Comprehensive security assessments of web applications, networks, and infrastructure to identify vulnerabilities before malicious actors do.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Vulnerability Research</h3>
+                    <p>Deep-dive analysis of software and systems to discover zero-day vulnerabilities and develop proof-of-concept exploits.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <h3>Red Team Operations</h3>
+                    <p>Simulating real-world attacks to test organizational defenses and improve incident response capabilities.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Security Research</h3>
+                    <p>Exploring the security implications of AI systems and developing novel approaches to AI-powered security tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Security Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Metasploit</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">Cobalt Strike</span>
+                        <span class="skill-tag">OWASP ZAP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">PowerShell</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Go</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Windows</span>
+                        <span class="skill-tag">macOS</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">MLOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    Interested in collaborating on security research, discussing AI security, 
+                    or need help with a penetration test? Let's connect!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:aaron@example.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://linkedin.com/in/aaron-salazar" class="contact-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/aaron-salazar" class="contact-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://twitter.com/aaron_sec" class="contact-link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Aaron Salazar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
